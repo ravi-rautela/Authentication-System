@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styling for Home Component */
+.container {
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+.content {
+  padding: 7rem;
+  margin: 20px 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgb(232, 245, 245);
+}
+
+.content h1 {
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content .btn {
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  font-size: medium;
+  background-color: aqua;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.content .btn:hover {
+  background-color: rgb(89, 233, 223);
+  color: #fff;
+}
+
+/* Styling for Login Component */
+.login, .signup {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px;
+}
+
+.form h1 {
+  margin: 15px 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 32px;
+}
+
+.input-fields {
+  padding: 0px 40px;
+}
+
+.input-fields input {
+  margin: 8px 10px;
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  font-size: 17px;
+  border-radius: 6px;
+  border-color: aqua;
+  border: none;
+  background-color: aliceblue;
+  text-indent: 4px;
+}
+
+.form .btn {
+  padding: 8px 30px;
+  border: none;
+  outline: none;
+  font-size: medium;
+  background-color: aqua;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+  width: 20%;
+}
+
+.form .btn:hover {
+  background-color: rgb(65, 239, 236);
+}
+
+
+/* Styling for Signup Component */
